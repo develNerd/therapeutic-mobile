@@ -5,6 +5,8 @@ import com.flepper.therapeutic.android.di.presentationModule
 import com.flepper.therapeutic.di.netWorkingModule
 import com.flepper.therapeutic.di.repositoryModule
 import com.flepper.therapeutic.di.useCaseFactoryModule
+import dev.gitlive.firebase.Firebase
+import dev.gitlive.firebase.initialize
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -14,7 +16,9 @@ class MainApp : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        Firebase.initialize(this)
         //Initialise Koin for Dependency Injection
+
         startKoin {
             allowOverride(true)
             androidContext(this@MainApp)

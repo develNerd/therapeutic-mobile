@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    kotlin("plugin.serialization") version "1.9.22"
+    alias(libs.plugins.realm).apply(false)
 }
 
 version = "1.0"
@@ -64,6 +66,8 @@ kotlin {
                     //implementation(this.realBase)
                 }
                 implementation(kotlin("stdlib-common"))
+                implementation("androidx.datastore:datastore-preferences-core:1.1.0-beta01")
+
             }
         }
         val commonTest by getting {
@@ -81,6 +85,9 @@ android {
     defaultConfig {
         minSdk = 23
     }
+}
+dependencies {
+    implementation("androidx.core:core-ktx:+")
 }
 
 

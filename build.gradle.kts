@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.kotlinAndroid).apply(false)
     alias(libs.plugins.kotlinMultiplatform).apply(false)
     alias(libs.plugins.realm).apply(false)
+    id("com.google.gms.google-services").version("4.3.14").apply(false)
 }
 
 

@@ -14,6 +14,7 @@ import com.flepper.therapeutic.data.usecasefactories.AuthUseCaseFactory
 import com.flepper.therapeutic.data.usecasefactories.HomeUseCaseFactory
 import com.flepper.therapeutic.data.usecases.CodeUseCase
 import dev.gitlive.firebase.Firebase
+import dev.gitlive.firebase.app
 import dev.gitlive.firebase.firestore.firestore
 import kotlinx.coroutines.MainScope
 import org.koin.core.module.dsl.singleOf
@@ -21,7 +22,7 @@ import org.koin.dsl.module
 
 val netWorkingModule = module {
     single { MainScope() }
-    single { Firebase.firestore.apply { setSettings(persistenceEnabled = true) } }
+    single { Firebase.firestore }
     singleOf(::AppPreference)
     singleOf(::KtorHttpClient)
     single { SquareHttpClient(get()) }

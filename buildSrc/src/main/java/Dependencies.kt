@@ -16,8 +16,8 @@ object Deps {
     }
 
     object Firebase {
-        const val auth =     "dev.gitlive:firebase-auth:1.11.0"
-        const val fireStore = "dev.gitlive:firebase-firestore:1.11.0"
+        const val auth =     "dev.gitlive:firebase-auth:1.11.1"
+        const val fireStore = "dev.gitlive:firebase-firestore:1.11.1"
     }
 
     object RealDatabase {
