@@ -7,10 +7,14 @@ Therapeutic is a Kotlin Mobile Multiplatform App that aims to help make access t
 Studies have shown that one in five (5) people may experience mental health issues at some point in their life. Mental health issues might not only have an effect on the patient, as he interacts with others this might extend to damage their relationships with others as well as extend to people they interact with.
 
 
-
 We also aim to provide and extend our services to the third world, as at these parts of the world, therapy is taken very lightly and a very small portion of people value the need for therapy. 
 
 If we could start off as a completely non-profit company, we might just have volunteer therapists who would love to work with us to make the world a better place.
+
+## Transparency
+
+We have an open record of anonymous users that a validated upon engaging with the application for a specific validity duration. We then record this on the stark-net blockchain
+using rpc commands provided by the Cario-1 contract [here](). 
 
 ## What it does
 Therapeutic uses a mobile application as it's main channel for initial user interactions. It has the following as it's main functions.
