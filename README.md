@@ -75,7 +75,6 @@ We have however decided to go with twitter spaces for now and can support other 
 
 Therapeutic will wish to start as a non-profit company in order to attract investors and professional therapists willing to make our world a better place. We will also build forums to solicit for donations.
 
-If our MVP is successful hopefully, we shall start business early 2023 (in 1st Quarter).
 
 ## Screen Shots
 
