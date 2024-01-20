@@ -11,10 +11,10 @@ We also aim to provide and extend our services to the third world, as at these p
 
 If we could start off as a completely non-profit company, we might just have volunteer therapists who would love to work with us to make the world a better place.
 
-## Transparency
+##Web3, Starknet Transparency
 
 We have an open record of anonymous users that a validated upon engaging with the application for a specific validity duration. We then record this on the stark-net blockchain
-using rpc commands provided by the Cario-1 contract [here](). 
+using rpc commands provided by the Cario-1 contract [here](https://github.com/develNerd/therapeutic-starknet-contract). 
 
 ## What it does
 Therapeutic uses a mobile application as it's main channel for initial user interactions. It has the following as it's main functions.
